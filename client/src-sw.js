@@ -43,3 +43,21 @@ registerRoute(
   })
 );
 
+offlineFallback(
+  [
+    {
+      url: '/index.html',
+      revision: null,
+    },
+    {
+      url: '/',
+      revision: null,
+    },
+  ],
+  {
+    cacheName: 'page-cache',
+    strategy: pageCache,
+  }
+);
+
+
