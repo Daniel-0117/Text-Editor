@@ -24,7 +24,7 @@ butInstall.addEventListener('click', async () => {
     promptEvent.prompt();
 
     // Wait for the user to respond to the prompt
-    const result = await promptEvent.userChoice;
+    window.choiceResult = await promptEvent.userChoice;
 
     // Hide the install button
     butInstall.setAttribute('hidden', true);
