@@ -1,5 +1,5 @@
 {
-  "name": "JATE",
+  "name": "Heretics Codex",
   "version": "1.0.0",
   "description": "",
   "main": "server.js",
@@ -20,6 +20,8 @@
   },
   "devDependencies": {
     "concurrently": "^5.2.0",
-    "nodemon": "^2.0.4"
+    "nodemon": "^2.0.4",
+    "webpack": "^5.88.2",
+    "webpack-cli": "^5.1.4"
   }
 }

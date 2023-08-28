@@ -31,8 +31,8 @@
       "type": "image/png"
     }
   ],
-  "name": "Text Editing",
-  "short_name": "Text Editor",
+  "name": "Heretics Codex",
+  "short_name": "There is no Emperor",
   "orientation": "portrait",
   "display": "standalone",
   "start_url": "./",

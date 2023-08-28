@@ -3,6 +3,7 @@ const WebpackPwaManifest = require('webpack-pwa-manifest');
 const path = require('path');
 const { InjectManifest } = require('workbox-webpack-plugin');
 
+// 
 module.exports = () => {
   return {
     mode: 'development',
@@ -10,6 +11,8 @@ module.exports = () => {
       main: './src/js/index.js',
       install: './src/js/install.js'
     },
+    // devtool: 'inline-source-map',
+    //
     output: {
       filename: '[name].bundle.js',
       path: path.resolve(__dirname, 'dist'),
@@ -28,8 +31,8 @@ module.exports = () => {
       new WebpackPwaManifest({
         fingerprints: false,
         inject: true,
-        name: 'Text Editing',
-        short_name: 'Text Editor',
+        name: 'Heretics Codex',
+        short_name: 'There is no Emperor',
         description: 'Allows you to create and edit text - works offline!',
         background_color: '#225ca3',
         theme_color: '#225ca3',
@@ -44,7 +47,7 @@ module.exports = () => {
         ],
       }),
     ],
-
+    //
     module: {
       rules: [
         {
