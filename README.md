@@ -1,8 +1,10 @@
 # Text-Editor
 
-![HOLD PLEASE]()
+
 
 Live deployed link or Walkthrough: https://heretics-codex-5db6d29363c6.herokuapp.com/Links 
+
+
 ![Static Badge](https://img.shields.io/badge/MIT-license?label=license&labelColor=%2332CD30&color=%23A020F0&link=https%3A%2F%2Fopensource.org%2Flicense%2Fmit%2F)
 
 ## Description
